@@ -28,8 +28,12 @@
         "title": "FED: test"
       },
       {
-        "command": "fed-ponavljanje-za-ispit.view",
-        "title": "FED: ponavljanje"
+        "command": "fed-ponavljanje-za-ispit.webView",
+        "title": "FED: Web View"
+      },
+      {
+        "command": "fed-ponavljanje-za-ispit.mdView",
+        "title": "FED: MarkDown View"
       }
     ]
   },

@@ -8,7 +8,7 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage('Hello World from FED ponavljanje za ispit!');
 	});
 
-	let view = vscode.commands.registerCommand('fed-ponavljanje-za-ispit.view', () => {
+	let webView = vscode.commands.registerCommand('fed-ponavljanje-za-ispit.webView', () => {
 		const assetsRoot = vscode.Uri.file(join(context.extensionPath, 'assets'));
 
 		const panel = vscode.window.createWebviewPanel(
@@ -39,7 +39,13 @@ export function activate(context: vscode.ExtensionContext) {
 			context.subscriptions
 		);
 	});
-	context.subscriptions.push(test, view);
+
+	let mdView = vscode.commands.registerCommand('fed-ponavljanje-za-ispit.mdView', () => {
+		const mdFile = vscode.Uri.file(join(context.extensionPath, 'assets/ponavljanje.md'));
+		vscode.commands.executeCommand("markdown.showPreview", mdFile);
+	});
+
+	context.subscriptions.push(test, webView, mdView);
 }
 
 export function deactivate() {}
