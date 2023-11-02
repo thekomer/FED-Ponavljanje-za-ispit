@@ -8,7 +8,7 @@ Ekstenzija služi isključivo za edukacijske svrhe. Svaka uporaba drugačija od 
 
 ## Kako radi?
 
-Otvara webview koji sadrži gradivo za ponavljanje.
+Otvara webview ili markdown view koji sadrži gradivo za ponavljanje.
 
 ## Kako se instalira?
 
