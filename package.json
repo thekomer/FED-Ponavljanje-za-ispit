@@ -7,15 +7,25 @@
     "vscode": "^1.84.0"
   },
   "categories": [
-    "Other"
+    "Education"
   ],
   "activationEvents": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thekomer/FED-Ponavljanje-za-ispit"
+  },
+  "publisher": "thekomer",
+  "vsce": {
+    "githubBranch": "main"
+  },
+  "license": "MIT",
+  "icon": "assets/images/FED-256.png",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "fed-ponavljanje-za-ispit.helloWorld",
-        "title": "Hello World"
+        "command": "fed-ponavljanje-za-ispit.FED",
+        "title": "FED: ponavljanje"
       }
     ]
   },
@@ -28,15 +38,16 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.83.0",
+    "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.3",
     "@types/node": "18.x",
+    "@types/vscode": "^1.83.0",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
+    "@vscode/test-electron": "^2.3.6",
     "eslint": "^8.52.0",
     "glob": "^10.3.10",
     "mocha": "^10.2.0",
-    "typescript": "^5.2.2",
-    "@vscode/test-electron": "^2.3.6"
+    "typescript": "^5.2.2"
   }
 }
