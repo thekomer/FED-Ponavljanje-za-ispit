@@ -4,7 +4,7 @@
   "description": "FED ponavljanje za ispit",
   "version": "0.0.4",
   "engines": {
-    "vscode": "^1.84.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Education"
