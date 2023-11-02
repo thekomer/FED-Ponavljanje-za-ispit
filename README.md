@@ -19,6 +19,9 @@ Otvara webview koji sadrži gradivo za ponavljanje.
 ## Kako se pokreće?
 
 1. Stisni Ctrl+Shift+P i u padajući izbornik upiši "FED".
-2. Pokreni naredbu imena "FED: ponavljanje".
+2. Pokreni naredbu imena
+   1. "FED: MarkDownView" za markdown preview,
+   2. "FED: WebView" za HTML preview
+   3. "FED: test" samo da bi te ekstenzija pozdravila :P
 
 ## Zahvali mi kasnije :-)
