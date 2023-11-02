@@ -24,7 +24,11 @@
   "contributes": {
     "commands": [
       {
-        "command": "fed-ponavljanje-za-ispit.FED",
+        "command": "fed-ponavljanje-za-ispit.test",
+        "title": "FED: test"
+      },
+      {
+        "command": "fed-ponavljanje-za-ispit.view",
         "title": "FED: ponavljanje"
       }
     ]
