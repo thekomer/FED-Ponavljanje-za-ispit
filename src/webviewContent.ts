@@ -16,7 +16,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 
 	<body>
 
-		<h1 id="algebra-zavr-ni">ALGEBRA ZAVRŠNI</h1>
+		<h1 id="algebra-zavr-ni">FED &mdash; ponavljanje</h1>
 
 		<h2 id="-a-name-html-a-html-mdash-struktura-i-sadr-aj"><a name="html"></a>HTML &mdash; struktura i sadržaj</h2>
 
