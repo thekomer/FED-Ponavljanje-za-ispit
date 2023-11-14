@@ -24,16 +24,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "fed-ponavljanje-za-ispit.test",
-        "title": "FED: test"
-      },
-      {
-        "command": "fed-ponavljanje-za-ispit.webView",
-        "title": "FED: Web View"
-      },
-      {
         "command": "fed-ponavljanje-za-ispit.mdView",
-        "title": "FED: MarkDown View"
+        "title": "FED: Ponavljanje.md"
+      },
+      {
+        "command": "fed-ponavljanje-za-ispit.mdViewNoPic",
+        "title": "FED: Ponavljanje.md bez slike"
       }
     ]
   },
